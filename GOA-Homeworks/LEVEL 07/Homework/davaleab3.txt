@@ -1,0 +1,10 @@
+nesting -ი არის როდესაც რამდენიმე თეგი გვაქ მოცემული რეთად  მაგ: 
+<html>
+   <head>
+      <title> text here </title>
+   </head>
+
+   <body>
+    <p> text here </p>
+   </body>
+</html>

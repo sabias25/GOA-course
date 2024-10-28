@@ -1,0 +1,22 @@
+1) x=15
+   x +=20
+   print(x)
+
+2) a=25
+   a -=15
+   print(a)
+
+3) s=7
+   s *=21
+   print(s)
+
+4) k=25
+   k /=5
+   print(5)
+
+5) g=14
+   g *=24
+   print(g)
+
+
+   

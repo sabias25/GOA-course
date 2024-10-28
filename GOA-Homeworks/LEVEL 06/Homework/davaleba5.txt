@@ -1,0 +1,14 @@
+case-sensitive
+case-insensitive
+
+lowercase-a,b,c,d...
+uppercase-A,B,C,D...
+
+case-sensitive-ში არააქ მნიშვნელობა lowercase-ით დავწერთ თუ uppercase-ით. ესეთებია მაგ:<button></button>  ,  <BUTTON></BUTTON>
+ასევე html-იც case-sensitive
+
+case-insitive-ში აქ მნიშვნელობა lowercase-ით დაწერ თუ uppercase-ით.  მაგ:  a=2  ,   A=2 .
+
+python is case-sansitive, html is case-sensitive, java is also case-sensitive.
+
+c++ is case-insensitive, c is case-insensitive, python is also a case-insensitive.
