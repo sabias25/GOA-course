@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form action="/submit" method="POST">
+        
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="first_name" value="John" placeholder="Enter your first name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="john@example.com" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="password123"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" value="30" min="1" max="100"><br><br>
+
+        <label for="favoriteColor">Favorite Color:</label>
+        <input type="color" id="favoriteColor" name="favorite_color" value="#ff0000"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
