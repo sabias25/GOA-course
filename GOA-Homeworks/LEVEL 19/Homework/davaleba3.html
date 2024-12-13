@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 1rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Travel Adventure</h1>
+    </header>
+    <nav>
+        <a href="#destinations">Destinations</a>
+        <a href="#activities">Activities</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="destinations">
+            <h2>Top Travel Destinations</h2>
+            <p><strong>Explore</strong> the most <em>beautiful</em> places around the world!</p>
+            <article>
+                <h3>Destination List</h3>
+                <ol>
+                    <li><mark>Paris</mark> - The City of Lights</li>
+                    <li>Rome - The Eternal City</li>
+                    <li>Kyoto - A Zen Escape</li>
+                </ol>
+                <ul>
+                    <li><b>Nature:</b> Amazon Rainforest, Grand Canyon</li>
+                    <li><i>Culture:</i> Kyoto, Florence</li>
+                    <li><u>Beach:</u> Maldives, Bali</li>
+                </ul>
+            </article>
+        </section>
+        <hr>
+        <section id="activities">
+            <h2>Popular Activities</h2>
+            <p>Enjoy the following activities during your trip:</p>
+            <ol>
+                <li>Scuba Diving</li>
+                <li>Mountain Trekking</li>
+                <li>City Tours</li>
+            </ol>
+            <ul>
+                <li>Local Cuisine Tasting</li>
+                <li>Wildlife Safaris</li>
+                <li>Photography Tours</li>
+            </ul>
+            <aside>
+                <p><strong>Pro Tip:</strong> Always carry a travel guide and water bottle.</p>
+            </aside>
+        </section>
+        <hr>
+        <section id="gallery">
+            <h2>Photo & Video Gallery</h2>
+            <p>Check out some <em>stunning</em> visuals:</p>
+            <div>
+                <img src="image copy.png" alt="Paris" width="150">
+                <img src="image copy 2.png" alt="Rome" width="150">
+                <img src="image copy 3.png" alt="Kyoto" width="150">
+                <img src="image copy 4.png" alt="Amazon Rainforest" width="150">
+                <img src="image copy 5.png" alt="Maldives" width="150">
+            </div>
+            <br>
+            <div>
+                <img src="image copy 6.png" alt="Bali" width="150">
+                <img src="image copy 7.png" alt="Florence" width="150">
+                <img src="image copy 8.png" alt="Grand Canyon" width="150">
+                <img src="image copy 9.png" alt="Wildlife" width="150">
+                <img src="image copy 10.png" alt="Scuba Diving" width="150">
+            </div>
+            <br><br>
+            <iframe width="960" height="540" src="https://www.youtube.com/embed/XBbzOKhG1bQ" title="Best Things To Do in Rome Italy 2024 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <iframe width="960" height="540" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Feedback</h2>
+            <p>We value your <mark>feedback</mark>. Please fill out the form below:</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="general">General</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="suggestion">Suggestion</option>
+                </select><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2024 Travel Adventure. All rights reserved.</p>
+        <a href="#top">Return to Top</a>
+    </footer>
+</body>
+</html>
