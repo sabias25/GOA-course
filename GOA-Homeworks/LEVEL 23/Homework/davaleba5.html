@@ -1,0 +1,79 @@
+<!-- კომენტარების დახმარებით, აღწერეთ რას აკეთებს colspan და rowspan -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Time/Day</th>
+                <th colspan="2">Monday-Tuesday</th> <!-- colspan merges two columns -->
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Morning</td> <!-- rowspan merges two rows -->
+                <td>Lesson</td>
+                <td>Exercise</td>
+                <td>Lesson</td>
+                <td>Reading</td>
+                <td>Programming</td>
+                <td>Hiking</td>
+                <td>Relaxation</td>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>Lesson</td>
+                <td>Project Work</td>
+                <td>Exercise</td>
+                <td>Lesson</td>
+                <td>Family Time</td>
+                <td>Reading</td>
+            </tr>
+            <tr>
+                <td>Evening</td>
+                <td colspan="2">Relaxation</td> <!-- colspan merges two columns -->
+                <td>Exercise</td>
+                <td>Programming</td>
+                <td>Lesson</td>
+                <td>Movie Night</td>
+                <td>Preparation for the Week</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <span>Inline Element 1</span>
+        <span>Inline Element 2</span>
+        <span>Inline Element 3</span>
+        <br>
+        <span>Now moved to a new line using &lt;br&gt;</span>
+    </div>
+</body>
+</html>
