@@ -1,0 +1,50 @@
+body {
+    background-color: midnightblue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin-right: 20px;
+}
+
+h2, h3, h4, h5 {
+    color: white;
+    text-align: right;
+    margin: 0 10px;
+}
+
+#button1 {
+    background-color: aqua;
+}
+
+#p1 {
+    color: aqua;
+    text-align: center;
+}
+
+#h11 {
+    color: white;
+    text-align: center;
+}
+
+#p2 {
+    color: white;
+    text-align: center;
+}
+
+#button2 {
+    background-color: aqua;
+    text-align: center;
+}
+
+#button3 {
+    background-color: aqua;
+    text-align: center;
+}
