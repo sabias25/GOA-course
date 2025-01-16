@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+.paragraph {
+    background-color: aqua;
+    font-size: 60px;
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+}
+
+#h-1 {
+    font-size: 60px;
+    background-color: aqua;
+}
+

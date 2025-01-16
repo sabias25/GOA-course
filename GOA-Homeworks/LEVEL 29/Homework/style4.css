@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+#div1 {
+    background-color: rgb(200, 230, 255);
+    color: rgb(0, 50, 100);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#div2 {
+    background-color: rgb(220, 240, 200);
+    color: rgb(50, 100, 0);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#div3 {
+    background-color: rgb(255, 220, 220);
+    color: rgb(100, 0, 0);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#div4 {
+    background-color: rgb(240, 220, 255);
+    color: rgb(50, 0, 100);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#div5 {
+    background-color: rgb(255, 255, 200);
+    color: rgb(100, 100, 0);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}

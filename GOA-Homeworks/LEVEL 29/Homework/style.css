@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+}
+
+#p1 {
+    color: rgb(245, 245, 245);
+}
+
+#p2 {
+    color: rgb(0, 0, 0);
+}
+
+#p3 {
+    color: rgb(255, 0, 0);
+}
+
+#p4 {
+    color: rgb(0, 255, 0);
+}
+
+#p5 {
+    color: rgb(0, 0, 255);
+}
