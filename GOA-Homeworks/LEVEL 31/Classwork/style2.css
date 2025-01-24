@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+}
+
+#div1 {
+    height: 600px;
+    background-color: #ab54bc;
+    width: 70%;
+}
+
+#div2 {
+    height: 60px;
+    background-color: #007bff;
+    width: 17.5%;
+}

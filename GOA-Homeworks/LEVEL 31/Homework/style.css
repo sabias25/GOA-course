@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+}
+
+#rgb1 {
+    color: rgb(152, 15, 120);
+    background-color: rgb(25, 56, 90);
+}
+
+#rgb2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#rgb3 {
+    color: rgb(255, 0, 0);
+    background-color: rgb(6, 85, 95);
+}
+
+#rgb4 {
+    color: rgb(0, 255, 0);
+    background-color: rgb(5, 155, 155);
+}
+
+#rgb5 {
+    color: rgb(0, 0, 255);
+    background-color: rgb(10, 155, 5);
+}
+
+#p1 {
+    color: #ff00ff;
+    background-color: #ad69ab;
+}
+
+#p2 {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#p3 {
+    color: #ff0000;
+    background-color: #378899;
+}
+
+#p4 {
+    color: #00ff00;
+    background-color: #49b5c4;
+}
+
+#p5 {
+    color: #0000ff;
+    background-color: #6699cc;
+}
