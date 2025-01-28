@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#p1 {
+    text-decoration: none;
+}
+
+#h11 {
+    text-decoration: overline;
+}
+
+#p2{
+    text-decoration: line-through;
+}
+
+#h22 {
+    text-decoration: underline overline;
+}
+
+#p3 {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+#p4.warning {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#nav1.nav a {
+    text-transform: uppercase;
+}
+
+#h11, #h22, #h33 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#h11 {
+    text-shadow: 2px 2px 5px black;
+}
+
+#p5p {
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#p6 {
+    text-shadow: 2px 2px 3px red;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+#h11 {
+    font-family: 'Lora', serif;
+}
+
+#p7 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'ButtonFont';
+    src: url('fonts/ButtonFont.woff2') format('woff2');
+}
+
+button {
+    font-family: 'ButtonFont', sans-serif;
+    font-weight: bold;
+}
+

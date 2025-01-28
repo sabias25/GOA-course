@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Noto Serif Todhri";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("NotoSerifTodhri-Regular.ttf") format('truetype');
+}
+
+body {
+    font-family: "Noto Serif Todhri";
+}
