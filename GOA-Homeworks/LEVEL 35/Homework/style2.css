@@ -1,0 +1,14 @@
+table {
+    width: 100px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+}
+th {
+    background-color: lightgray;
+}
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}

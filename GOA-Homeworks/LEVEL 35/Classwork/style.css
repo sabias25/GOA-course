@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #333;
+}
+
+a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 69, 0); 
+}
+
+a:active {
+    font-size: 14px;
+    font-weight: 100px;
+    color: #0066cc; 
+}
