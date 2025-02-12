@@ -1,0 +1,18 @@
+#table1 {
+    border  : 3px solid black
+}
+
+table, th {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+
+#table1
+tr:nth-child(1) {
+    background-color: rgb(11, 233, 215);
+}
+
+#tr1 {
+    color: lightgreen;;
+}

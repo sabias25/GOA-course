@@ -1,0 +1,12 @@
+#table2 {
+    border  : 2px solid black;
+}
+
+#table1
+tr:nth-child(1) {
+    background-color: rgb(11, 233, 215);
+}
+
+#tr1 {
+    color: red;
+}

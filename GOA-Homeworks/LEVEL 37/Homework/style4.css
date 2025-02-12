@@ -1,0 +1,71 @@
+ul {
+    list-style: none; 
+    color: red;
+}
+
+/* 2 */
+li {
+    font-size: 18px;
+}
+li:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+
+/* 3 */
+
+ul {
+    list-style: none;
+}
+li {
+    font-size: 18px;
+}
+li:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+li:nth-child(3n) {
+    color: #ff5733; 
+}
+
+/* 4 */
+
+ul {
+    list-style: none; 
+}
+li {
+    font-size: 18px;
+}
+li::before {
+    content: "🔹"; 
+    font-size: 20px;
+}
+li:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+li:nth-child(3n) {
+    color: #ff5733; 
+}
+
+/* 5 */
+
+ul {
+    list-style: none; 
+}
+li {
+    font-size: 18px;
+}
+li::before {
+    content: "🔹"; 
+    font-size: 20px;
+}
+li:nth-child(even) {
+    background-color: #f0f0f0;
+}
+li:nth-child(3n) {
+    color: #ff5733; 
+}
+li:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    font-weight: bold;
+}
