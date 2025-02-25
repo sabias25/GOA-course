@@ -1,0 +1,109 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#div1 {
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: cover; 
+}
+
+#h22 {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+#p1 {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(146, 252, 146);
+}
+
+#p2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#but1 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(219, 214, 214);
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#but1:hover {
+    background-color: red
+}
+
+#but2 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(219, 214, 214);
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#but2:hover {
+    background-color: blue
+}
+
+#but3 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(219, 214, 214);
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#but3:hover {
+    background-color: green
+}
+
+#but4 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(219, 214, 214);
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#but4:hover {
+    background-color: yellow
+}
+
+#but5 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(219, 214, 214);
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#but5:hover {
+    background-color: purple
+}
