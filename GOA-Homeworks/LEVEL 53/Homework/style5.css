@@ -1,0 +1,18 @@
+.resizing-box {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    animation: resizeAnim 3s infinite alternate;
+    }
+
+    @keyframes resizeAnim {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5); 
+    }
+    100% {
+        transform: scale(0.5); 
+    }
+    }
